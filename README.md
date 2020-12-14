@@ -42,7 +42,7 @@ constructor to instantiate hotel object.
 displayAvailable - returns all available rooms to screen.
 checkIn - returns a new List<Rooms> when a customer checkins in.
 checkOut - returns a new List<Rooms> when a customer checks out.
-checkCreditCard - returns a boolean value when a customer's credit card is passed as a paramter.
+checkCreditCard - returns a boolean value when a customer's credit card is passed as a parameter.
 toString method to print hotel objects to screen.
 
 Room class: 
@@ -59,4 +59,4 @@ Console class:
 bookRoom - prints a string to console that prompts user to input a string to book a room and then returns a string as 
 a parameter passed to the hotel checkIn method.
 returnRoom - prints a string to console that prompts user to input a string to return a room and then returns a string as 
-a parameter passed to the hotel checkIn method.
+xa parameter passed to the hotel checkIn method.
