@@ -3,7 +3,8 @@ Hotel breakdown:
 
 Customer views what type of rooms, the price of rooms and their availability.
 Customer sends a booking request.
-Hotel receives their booking request and fulfills their request based upon availability.
+Hotel receives their booking request and fulfills their request based upon
+availability.
 Customer sends a checkout request.
 Hotel fulfills customer's request and changes the room in their database.
 
@@ -18,7 +19,8 @@ Fields to consider
 Hotel:
 String name
 String address
-Boolean/String occupancy if the boolean value is true then print a message to console that says there is occupancy, if false
+Boolean/String occupancy if the boolean value is true then print a message to 
+console that says there is occupancy, if false
 print no occupancy. The value can test a list;
 List<Rooms>
 
@@ -40,9 +42,10 @@ Methods to consider
 Hotel:
 constructor to instantiate hotel object.
 displayAvailable - returns all available rooms to screen.
-checkIn - returns a new List<Rooms> when a customer checkins in.
+checkIn - returns a new List<Rooms> when a customer checks in.
 checkOut - returns a new List<Rooms> when a customer checks out.
-checkCreditCard - returns a boolean value when a customer's credit card is passed as a parameter.
+checkCreditCard - returns a boolean value when a customer's credit card is passed
+as a parameter.
 toString method to print hotel objects to screen.
 
 Room class: 
@@ -56,7 +59,9 @@ constructor to instantiate customer object.
 getter/setter for customer fields.
 
 Console class:
-bookRoom - prints a string to console that prompts user to input a string to book a room and then returns a string as 
+bookRoom - prints a string to console that prompts user to input a string to book 
+a room and then returns a string as 
 a parameter passed to the hotel checkIn method.
-returnRoom - prints a string to console that prompts user to input a string to return a room and then returns a string as 
+returnRoom - prints a string to console that prompts user to input a string to 
+return a room and then returns a string as 
 xa parameter passed to the hotel checkIn method.
